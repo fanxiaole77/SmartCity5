@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="planets_array">
+        <item>默认排序</item>
+        <item>从业年限</item>
+        <item>服务人数</item>
+        <item>好评率</item>
+    </string-array>
+</resources>

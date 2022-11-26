@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SmartCityApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.home.VendorActivity"></activity>
+        <activity android:name=".ui.activity.China.VendorActivity" />
+        <activity android:name=".ui.activity.China.ChinaActivity" />
+        <activity android:name=".ui.activity.Consutle.ConConmmentActivity" />
+        <activity android:name=".ui.activity.Consutle.ConsultContentActivity" />
+        <activity android:name=".ui.activity.Consutle.ConsultActivity" />
+        <activity android:name=".ui.lawyer.LaywerTypeListActivity" />
+        <activity android:name=".ui.lawyer.LawyerPagerActivity" />
+        <activity android:name=".ui.lawyer.LawyerContentActivity" />
+        <activity android:name=".ui.lawyer.ScreenActivity" />
+        <activity android:name=".ui.lawyer.LawyerListActivity" />
+        <activity android:name=".ui.lawyer.SvLawyerActivity" />
+        <activity android:name=".ui.litter.TypeContentActivity" />
+        <activity android:name=".ui.litter.TypeActivity" />
+        <activity android:name=".ui.litter.LitterSvActivity" />
+        <activity android:name=".ui.litter.LitterNewsContentActivity" />
+        <activity android:name=".ui.activity.litter.LitterActivity" />
+        <activity android:name=".ui.home.NewsContentActivity" />
+        <activity android:name=".ui.home.SvActivity" />
+        <activity android:name=".ui.activity.fun.FunActivity" />
+        <activity android:name=".ui.action.RegisterActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.action.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

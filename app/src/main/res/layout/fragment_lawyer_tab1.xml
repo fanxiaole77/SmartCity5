@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.lawyer.LawyerTab1Fragment">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_marginTop="80dp"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <androidx.cardview.widget.CardView
+               app:cardCornerRadius="20dp"
+               app:cardElevation="40dp"
+               android:layout_width="350dp"
+               android:layout_height="600dp">
+               <LinearLayout
+                   android:padding="20dp"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <LinearLayout
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:text="教育背景:"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/beijing1"
+                           android:maxLines="3"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:text="从业年限:"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/nianxian1"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:text="职业证号"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/zhenghao1"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:text="个人简介"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/jianjie2"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:text="律师证展示照片:"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                       <ImageView
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/tabimage"
+                           android:textSize="20dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+       </LinearLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
